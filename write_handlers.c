@@ -1,4 +1,4 @@
-#include "main.h"
+t include "main.h"
 
 /************************* WRITE HANDLE *************************/
 /**
@@ -101,7 +101,7 @@ int write_num(int ind, char buffer[],
 		return (0); /* printf(".0d", 0)  no char is printed */
 	if (prec == 0 && ind == BUFF_SIZE - 2 && buffer[ind] == '0')
 		buffer[ind] = padd = ' '; /* width is displayed with padding ' ' */
-	if (prec > 0 && prec < lbuffer[--ind] = extra_c;
+	if (prec > 0 && prec < lbuffer[--ind] = extra_c);
 	return (write(1, &buffer[ind], length));
 }
 
